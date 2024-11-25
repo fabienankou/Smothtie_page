@@ -48,8 +48,50 @@
         align-items:flex-end;
         margin-inline-end:10px;
     }
-    a{
+    a,p{
         font-family: Arial, Helvetica, sans-serif;
+    }
+    #devise{
+        padding-left:40px;
+        padding-right:40px;
+        #boxd{
+            display:flex;
+            img{
+                height:300px;
+    
+            }
+            div{
+                margin-left:30px;
+                /* text-align: center; */
+                h1{
+                    text-align: center;
+                }
+                align-content:center ;
+            }
+        }
+    }
+    #methode{
+        background-image:linear-gradient(to bottom, #FEB4C3,#F59E28);
+        
+        div{
+            
+            h2{
+                padding-top:50px;
+            }
+            
+               
+        text-align: center;
+        color:white;
+        padding-bottom:30px;
+        margin-top:30px;
+          
+        }
+    }
+    #CONCEPT{
+        text-align: center;
+        div{
+            display:flex;
+        }
     }
 
 } 
